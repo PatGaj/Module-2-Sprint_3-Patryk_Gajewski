@@ -7,8 +7,6 @@ function App() {
   const [data, setData] = useState(null);
 
   const handleData = (element) => {
-    console.log(element);
-
     setData(element);
     setStatus(true);
   };
